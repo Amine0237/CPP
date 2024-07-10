@@ -52,7 +52,7 @@ double eps = 1e-12;
 #define sz(x) ((ll)(x).size())
  
 
-// g++ -std=c++11 -Wall App.cpp -o App ; ./App
+// clear; g++ -std=c++11 -Wall App.cpp -o App ; ./App
 
 void solve() {
     cout << "Hello" << endl;
@@ -64,7 +64,7 @@ int main() {
     cin >> t;
 
     for(int it=1;it<=t;it++) {
-        cout << "Case #" << it+1 << ": ";
+        cout << "Case #" << it << ": ";
         solve();
     }
     
