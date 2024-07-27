@@ -64,7 +64,7 @@ int main() {
     cin >> t;
 
     for(int it=1;it<=t;it++) {
-        cout << "Case #" << it+1 << ": ";
+        cout << "Case #" << it << ": ";
         solve();
     }
     
